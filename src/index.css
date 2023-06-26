@@ -259,7 +259,7 @@ main {
 .recipe-detail-wrapper {
   max-width: 350px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.7rem 2rem;
   display: block;
   white-space: pre-line;
   border-radius: 5px;
@@ -268,22 +268,25 @@ main {
 
 .recipe-detail-img {
   max-width: 270px;
-  max-height: 270px;
+  max-height: 350px;
   margin: 0 auto;
   display: block;
   border-radius: 10px;
 }
 
 .recipe-detail-description {
-  max-width: 300px;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
 
-.recipe-detail-description h2 {
-  padding: 1rem 0;
+.recipe-detail-description h2,
+h4 {
+  padding: 0.5rem 0;
 }
-
+.recipe-detail-description ul {
+  margin: 1rem;
+}
 /* newsletter page styles*/
 
 .newsletter {
